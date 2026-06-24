@@ -1,0 +1,34 @@
+# Site settings
+title: "Zurfishan"
+author: "Zurfishan"
+description: "Computer Engineering student sharing my journey, projects, and insights"
+permalink: /:title/
+lang: "en"
+excerpt_separator: "\n\n\n"
+date_format: "%B %d, %Y"
+
+# Hero
+name: "Hey, I'm Zurfishan 👋"
+subtitle: "Computer Engineering Student | Developer | Problem Solver"
+
+# Layout
+show_excerpts: true
+show_frame: true
+show_sidebar: false
+show_minimal: false
+
+# Navigation - Minimal
+navigation:
+  - {title: "Home", file: "index.html"}
+  - {title: "Blog", file: "archive.html"}
+  - {title: "About", file: "about.md"}
+  
+
+# Social - Only GitHub & LinkedIn
+external:
+  - {title: "GitHub", url: "https://github.com/zurfishan"}
+  - {title: "LinkedIn", url: "https://linkedin.com/in/zurfishan"}
+
+# Plugins
+plugins:
+  - jekyll-feed
